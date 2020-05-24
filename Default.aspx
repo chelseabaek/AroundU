@@ -27,7 +27,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="../aboutus.aspx">About Us</a></li>
+        <li><a href="../aboutus.html">About Us</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="http://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></i></span> Instagram</a></li>
