@@ -14,12 +14,14 @@
 
 <style>
 body {
-     background: linear-gradient(to bottom, #666699 0%, #ffffff 100%);
+     background: linear-gradient(to bottom, #fbebd2 0%, #ffffff 100%);
     background-size: cover;
 }
 </style>
 
 <body>
+
+</style>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
@@ -47,6 +49,7 @@ body {
 <br>
 <br>
 <br>
+
 <div class="container">
   <div class="alert alert-danger alert-dismissible">
     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
@@ -61,49 +64,86 @@ body {
 </style>
 
 <div class="jumbotron text-center">
-  <h1>aroundU</h1>
+  <h1 style="color:#95c065;"><b>aroundU</b></h1>
   <p><b>Proj-covid19</b><br>in association with DDQIC</p>
 </div>
 
- 
+<style>
+    .nav-pills a{
+        color: black;
+    }
+
+    .nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+        color: black;
+        background-color: #e26a6b;
+    }
+
+    .nav-pills > li.active > a:hover {
+        color: white;
+        background-color: #e26a6b;
+    }
+
+    .nav-pills > li > a:hover {
+        color: white;
+        background-color: #eeaaab;
+
+</style>
+
+<center>
 <div class="container">
+</center>
   <ul class="nav nav-pills nav-justified">
-    <li class="active"><a data-toggle="pill" href="#groceries">Groceries</a></li>
-    <li><a data-toggle="pill" href="#pharmacies">Pharmacies</a></li>
+    <li class="active"><a data-toggle="pill"href="#groceries"><h5><b>Groceries</b></h5></a></li>
+    <li><a data-toggle="pill" href="#pharmacies"><h5><b>Pharmacies</b></h5></a></li>
   </ul>
 
 <style>
 #storeone {
-  border: 10px solid #fcf8ff;
+  border: 6px solid #f9e0bb;
   border-radius: 8px;
 }
 #storetwo {
-  border: 10px solid #fcf8ff;
+  border: 6px solid #f9e0bb;
   border-radius: 8px;
 }
 #storethree {
-  border: 10px solid #fcf8ff;
+  border: 6px solid #f9e0bb;
   border-radius: 8px;
 }
 #storefour {
-  border: 10px solid #fcf8ff;
+  border: 6px solid #f9e0bb;
   border-radius: 8px;
 }
+
+.btn.btn-block:hover {
+background: #f9e0bb!important;
+}
 </style>
-  
+
+<br>
   <div class="tab-content">
     <div id="groceries" class="tab-pane fade in active">
             <div class="container-fluid">
       <div class="row">
-        <div id="storeone"class="col-sm-12" style="background-color:#f8f8ff;">
-        <h1>Loblaws</h1>
-        <p>Address:<br>Hours of Operation: <br><br><br>Phone: </p>
-        <button onclick="document.location = 'storeone.html'" type="button" class="btn btn-lg btn-block" style="background-color:#fcf8ff;"><p style="text-align:right;"><br>>>></br></p></button>
+        <div id="storeone"class="col-sm-12" style="background-color:#fbebd2;">
+        <h2>Loblaws</h2>
+        <p>Address:<br></p>
+        <button onclick="document.location = 'storeone.html'" type="button" class="btn btn-lg btn-block" style="background-color:#fbe8cd;"><p style="text-align:right;"><span class="glyphicon glyphicon-menu-right"></span></p></button>
+        <br>
         </div>
-        <div id="storetwo"class="col-sm-12" style="background-color:#f8f8ff;">
-        <h1>Sobeys</h2>
-        <p>Address:<br>Hours of Operation: <br><br><br>Phone: </p>
-        <button onclick="document.location = 'storetwo.html'" type="button" class="btn btn-lg btn-block" style="background-color:#fcf8ff;"><p style="text-align:right;"><br>>>></br></p></button>
+        <br>
+        <div id="storetwo"class="col-sm-12" style="background-color:#fbebd2;">
+        <h2>Sobeys</h2>
+        <p>Address:<br></p>
+        <button onclick="document.location = 'storetwo.html'" type="button" class="btn btn-lg btn-block" style="background-color:#fbe8cd;"><p style="text-align:right;"><span class="glyphicon glyphicon-menu-right"></span></p></button>
+        <br>
+        </div>
+        <br>
+        <div id="storetwo"class="col-sm-12" style="background-color:#fbebd2;">
+        <h2>Wal-Mart</h2>
+        <p>Address:<br></p>
+        <button onclick="document.location = 'storethree.html'" type="button" class="btn btn-lg btn-block" style="background-color:#fbe8cd;"><p style="text-align:right;"><span class="glyphicon glyphicon-menu-right"></span></p></button>
+        <br>
         </div>
       </div>
     </div>
@@ -112,15 +152,18 @@ body {
     <div id="pharmacies" class="tab-pane fade">
 <div class="container-fluid">
       <div class="row">
-        <div id="storethree" class="col-sm-12" style="background-color:#f8f8ff;">
-        <h1>Pharmaprix</h1>
-        <p>Address:<br>Hours of Operation: <br><br><br>Phone: </p>
-        <button onclick="document.location = 'storethree.html'" type="button" class="btn btn-lg btn-block" style="background-color:#fcf8ff;"><p style="text-align:right;"><br>>>></br></p></button>
+        <div id="storethree" class="col-sm-12" style="background-color:#fbebd2;">
+        <h2>Pharmaprix</h2>
+        <p>Address:<br></p>
+        <button onclick="document.location = 'pharmone.html'" type="button" class="btn btn-lg btn-block" style="background-color:#fbe8cd;"><p style="text-align:right;"><span class="glyphicon glyphicon-menu-right"></p></button>
+        <br>
         </div>
-        <div id="storefour"class="col-sm-12" style="background-color:#f8f8ff;">
-        <h1>Shoppers Drug Mart</h2>
-        <p>Address:<br>Hours of Operation: <br><br><br>Phone: </p>
-        <button onclick="document.location = 'storefour.html'" type="button" class="btn btn-lg btn-block" style="background-color:#fcf8ff;"><p style="text-align:right;"><br>>>></br></p></button>
+        <br>
+        <div id="storefour"class="col-sm-12" style="background-color:#fbebd2;">
+        <h2>Shoppers Drug Mart</h2>
+        <p>Address:<br></p>
+        <button onclick="document.location = 'pharmtwo.html'" type="button" class="btn btn-lg btn-block" style="background-color:#fbe8cd;"><p style="text-align:right;"><span class="glyphicon glyphicon-menu-right"></p></button>
+        <br>
         </div>
       </div>
     </div>
@@ -128,5 +171,7 @@ body {
   </div>
 </div>
 
+<br>
+<br>
 </body>
 </html>
