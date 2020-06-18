@@ -49,67 +49,152 @@ body {
 .jumbotron {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('ogIm.jpeg');
   background-size: cover;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 22%;
+  padding-bottom: 2%;
 }
+
+.gi-5x {
+    font-size: 5em;
+    color:#e26a6b
+}
+
+.gi-5x:hover {
+    font-size: 5em;
+    color: #eeaaab;
+}
+
 </style>
 
 
 <div class="jumbotron text-center">
-</div>
-
-
-
-<div class="container">
- <div class="container-fluid">
- <center><h1>Store #1</h1></center>
- <div class="row">
-    <div class="col-sm-8">
-        <h3>Wait Time</h3>
-        <hr style="height:2px;border-width:0;color:#e26a6b;background-color:#e26a6b">
-        <br>
-        <br>
-        <br>
-        <br>   
-        <h3>Capacity</h3>
-        <hr style="height:2px;border-width:0;color:#e26a6b;background-color:#e26a6b">
-        <br>
-        <br>
-        <br>
-        <br>
-        <h3>Past Trends</h3>
-        <hr style="height:2px;border-width:0;color:#e26a6b;background-color:#e26a6b">
-        <br>
-        <br>
-        <br>
-        <br>
-    </div>
-    <div class="col-sm-4 text-left">
-        <h5><a href="https://www.google.com/maps/dir/45.5225618,-73.5793425/Rachelle-B%C3%A9ry+boutiques+sant%C3%A9,+4201+St+Denis+St,+Montreal,+Quebec+H2J+2K9/@45.5222792,-73.5810766,17z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x4cc91bce61b9c3d1:0x1e030241d0c32ac6!2m2!1d-73.578325!2d45.5221521" target="_blank" rel="noopener"><span class="glyphicon glyphicon-map-marker"></span></a>&nbsp;4201 Rue Saint-Denis, Montreal, Quebec</h5>
-        <h5><a href="https://www.google.com/maps/dir/45.5225618,-73.5793425/Rachelle-B%C3%A9ry+boutiques+sant%C3%A9,+4201+St+Denis+St,+Montreal,+Quebec+H2J+2K9/@45.5222792,-73.5810766,17z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x4cc91bce61b9c3d1:0x1e030241d0c32ac6!2m2!1d-73.578325!2d45.5221521" target="_blank" rel="noopener"><span class="glyphicon glyphicon-globe"></span> rachelleberry.ca</a></h5>
-    </div>
-  </div>
- <center>
-
-</center>
-</div>
+  <h1 style="color:#7cac46;"><b>aroundU-AI</b></h1>
+  <br>
+  <p style="color:#ffffff";><b>Proj-covid19</b><br>in association with DDQIC</p>
+  <br><br><br><br><br><br><br><br><br>
+  <a href="#here" class="btn btn-xl">
+    <span class="glyphicon glyphicon-menu-down gi-5x"></span>
+  </a>
 </div>
 
 <style>
-.gi-2x {
-    font-size: 2em;
-    color:#e26a6b
+    .nav-pills a{
+        color: black;
+    }
+
+    .nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+        color: black;
+        background-color: #e26a6b;
+    }
+
+    .nav-pills > li.active > a:hover {
+        color: white;
+        background-color: #e26a6b;
+    }
+
+    .nav-pills > li > a:hover {
+        color: white;
+        background-color: #eeaaab;
+
+</style>
+
+  <div id="here">
+    <h1>&nbsp</h1>
+  </div>
+
+<div class="container">
+<center>
+<div class="container">
+</center>   
+  <ul class="nav nav-pills nav-justified">
+    <li class="active"><a data-toggle="pill"href="#groceries"><h5><b>Groceries</b></h5></a></li>
+    <li><a data-toggle="pill" href="#pharms"><h5><b>Pharmacies</b></h5></a></li>
+  </ul>
+
+<style>
+#stores, #pharmacies {
+  border: 6px solid #f9e0bb;
+  border-radius: 8px;
 }
 
-.gi-2x:hover {
-    font-size: 2em;
-    color: #eeaaab;
-}
+.btn.btn-block:hover {
+background: #f9e0bb!important;
 }
 </style>
 
-<div class="container">
-<button onclick="document.location = 'storetwo.html'" type="button" class="btn pull-right btn-lg gi-2x" style="background-color:Transparent;"><p style="text-align:right;"><span class="glyphicon glyphicon-menu-right"></span></p></button>
+<br>
+  <div class="tab-content">
+    <div id="groceries" class="tab-pane fade in active">
+            <div class="container-fluid">
+      <div class="row">
+        <div id="stores"class="col-sm-12" style="background-color:#fbebd2;">
+        <h2>STORE #1</h2>
+        <p class="lead">4201 Rue Saint-Denis, Montreal, Quebec <a href="https://www.google.com/maps/dir/45.5225618,-73.5793425/Rachelle-B%C3%A9ry+boutiques+sant%C3%A9,+4201+St+Denis+St,+Montreal,+Quebec+H2J+2K9/@45.5222792,-73.5810766,17z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x4cc91bce61b9c3d1:0x1e030241d0c32ac6!2m2!1d-73.578325!2d45.5221521" target="_blank" rel="noopener"><span class="glyphicon glyphicon-new-window"></span></a><br></p>
+        <button onclick="document.location = 'storeone.html'" type="button" class="btn btn-lg btn-block" style="background-color:#fbe8cd;"><p style="text-align:right;"><span class="glyphicon glyphicon-menu-right"></span></p></button>
+        <br>
+        </div>
+      </div>
+      <div class="row">
+        <br>
+        <div id="stores"class="col-sm-12" style="background-color:#fbebd2;">
+        <h2>STORE #2</h2>
+        <p>Address:<br></p>
+        <button onclick="document.location = 'storetwo.html'" type="button" class="btn btn-lg btn-block" style="background-color:#fbe8cd;"><p style="text-align:right;"><span class="glyphicon glyphicon-menu-right"></span></p></button>
+        <br>
+        </div>
+      </div>
+      <div class="row">
+        <br>
+        <div id="stores"class="col-sm-12" style="background-color:#fbebd2;">
+        <h2>STORE #3</h2>
+        <p>Address:<br></p>
+        <button onclick="document.location = 'storefour.html'" type="button" class="btn btn-lg btn-block" style="background-color:#fbe8cd;"><p style="text-align:right;"><span class="glyphicon glyphicon-menu-right"></span></p></button>
+        <br>
+        </div>
+      </div>
+      <div class="row">
+        <br>
+        <div id="stores"class="col-sm-12" style="background-color:#fbebd2;">
+        <h2>STORE #4</h2>
+        <p>Address:<br></p>
+        <button onclick="document.location = 'storefive.html'" type="button" class="btn btn-lg btn-block" style="background-color:#fbe8cd;"><p style="text-align:right;"><span class="glyphicon glyphicon-menu-right"></span></p></button>
+        <br>
+        </div>
+      </div>
+      <div class="row">
+        <br>
+        <div id="stores"class="col-sm-12" style="background-color:#fbebd2;">
+        <h2>STORE #5</h2>
+        <p>Address:<br></p>
+        <button onclick="document.location = 'storethree.html'" type="button" class="btn btn-lg btn-block" style="background-color:#fbe8cd;"><p style="text-align:right;"><span class="glyphicon glyphicon-menu-right"></span></p></button>
+        <br>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div id="pharms" class="tab-pane fade">
+<div class="container-fluid">
+      <div class="row">
+        <div id="pharmacies" class="col-sm-12" style="background-color:#fbebd2;">
+        <h2>Pharmacy #1</h2>
+        <p>Address:<br></p>
+        <button onclick="document.location = 'pharmacyone.html'" type="button" class="btn btn-lg btn-block" style="background-color:#fbe8cd;"><p style="text-align:right;"><span class="glyphicon glyphicon-menu-right"></span></p></button>
+        <br>
+        </div>
+      </div>
+      <div class="row">
+        <br>
+        <div id="pharmacies"class="col-sm-12" style="background-color:#fbebd2;">
+        <h2>Pharmacy #2</h2>
+        <p>Address:<br></p>
+        <button onclick="document.location = 'pharmacytwo.html'" type="button" class="btn btn-lg btn-block" style="background-color:#fbe8cd;"><p style="text-align:right;"><span class="glyphicon glyphicon-menu-right"></span></p></button>
+        <br>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
 </div>
 
 <br>
