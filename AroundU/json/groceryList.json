@@ -1,0 +1,58 @@
+﻿[
+  {
+    "ID": "1",
+    "name": "Store A",
+    "address": "1 main street ",
+    "map": "http://www.googlemaps.com/",
+    "website": "http://www.google.com",
+    "image": "headshots/spiderman.jpg"
+  },
+  {
+    "ID": "2",
+    "name": "Store B",
+    "address": "2 main street ",
+    "map": "http://www.googlemaps.com/",
+    "website": "http://www.yahoo.com",
+    "image": "headshots/spiderman.jpg"
+  },
+  {
+    "ID": "3",
+    "name": "Store C",
+    "address": "3 main street ",
+    "map": "http://www.googlemaps.com/",
+    "website": "http://www.instagram.com",
+    "image": "headshots/spiderman.jpg"
+  },
+  {
+    "ID": "4",
+    "name": "Store D",
+    "address": "4 main street ",
+    "map": "http://www.googlemaps.com/",
+    "website": "http://www.instagram.com",
+    "image": "headshots/spiderman.jpg"
+  },
+  {
+    "ID": "5",
+    "name": "Store E",
+    "address": "5 main street ",
+    "map": "http://www.googlemaps.com/",
+    "website": "http://www.instagram.com",
+    "image": "headshots/spiderman.jpg"
+  },
+  {
+    "ID": "6",
+    "name": "Store F",
+    "address": "6 main street ",
+    "map": "http://www.googlemaps.com/",
+    "website": "http://www.instagram.com",
+    "image": "headshots/spiderman.jpg"
+  },
+  {
+    "ID": "7",
+    "name": "Store G",
+    "address": "7 main street ",
+    "map": "http://www.googlemaps.com/",
+    "website": "http://www.instagram.com",
+    "image": "headshots/spiderman.jpg"
+  }
+]
